@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T07:49:52.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hsoozkAqoa3JiC6pneQt" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T07:52:34.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="st6BVBoASNJ1K6QQNKGW" version="21.7.4" type="github">
   <diagram name="第 1 页" id="xZt0rgKf0xyPURXflzFH">
     <mxGraphModel dx="1863" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
             <mxPoint x="-35" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulawDuMG_Z6RZev0Ew0s-13" value="1、通过自己的NTLM HASH解密TGT得到Session Key&lt;br&gt;2、通过Session Key解密得到Client info进行验证" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ulawDuMG_Z6RZev0Ew0s-13" value="1、通过自己的Master Key（NTLM hash）解密TGT得到Session Key&lt;br&gt;2、通过Session Key解密得到Client info进行验证" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="951" y="240" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ulawDuMG_Z6RZev0Ew0s-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.025;exitY=0.868;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ulawDuMG_Z6RZev0Ew0s-3" target="ulawDuMG_Z6RZev0Ew0s-16" edge="1">
@@ -89,7 +89,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77Dh7rvx6VXcCTubH6aV-7" value="1、使用自己的 Master Key解密用户请求中的 Ticket 得到 Session Key（Server-Client）&lt;br&gt;2、使用 Session Key（Server-Client ）解密Client加密后的信息（Client info与Timestamp）进行验证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="77Dh7rvx6VXcCTubH6aV-7" value="1、使用自己的 Master Key（NTLM hash）解密用户请求中的 Ticket 得到 Session Key（Server-Client）&lt;br&gt;2、使用 Session Key（Server-Client ）解密Client加密后的信息（Client info与Timestamp）进行验证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="945" y="378" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
