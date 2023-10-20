@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T07:48:47.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ozRjOVX0S4frzez3zlI4" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T07:49:47.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_9szxkIUNMwEbipBJllw" version="21.7.4" type="github">
   <diagram name="第 1 页" id="xZt0rgKf0xyPURXflzFH">
     <mxGraphModel dx="1863" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,8 +75,8 @@
         <mxCell id="ulawDuMG_Z6RZev0Ew0s-16" value="1、使用Session Key（KDC-Client）进行解密获得用于与Server通信的&lt;b style=&quot;color: rgb(255, 0, 0);&quot;&gt;Session Key （Server-Client&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;）&lt;/font&gt;&lt;br&gt;2、先留着&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;Ticket&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-390" y="300" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulawDuMG_Z6RZev0Ew0s-17" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="940" y="370" width="310" height="80" as="geometry" />
+        <mxCell id="ulawDuMG_Z6RZev0Ew0s-17" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="370" width="340" height="100" as="geometry" />
         </mxCell>
         <mxCell id="77Dh7rvx6VXcCTubH6aV-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.005;exitY=0.826;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.008;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ulawDuMG_Z6RZev0Ew0s-1" target="ulawDuMG_Z6RZev0Ew0s-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -89,8 +89,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77Dh7rvx6VXcCTubH6aV-7" value="1、使用自己的 Master Key解密用户请求中的 Ticket 得到 Session Key（Server-Client）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="450" width="480" height="60" as="geometry" />
+        <mxCell id="77Dh7rvx6VXcCTubH6aV-7" value="1、使用自己的 Master Key解密用户请求中的 Ticket 得到 Session Key（Server-Client）&lt;br&gt;2、使用 Session Key（Server-Client ）解密Client加密后的信息（Client info与Timestamp）进行验证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="378" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
