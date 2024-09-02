@@ -389,10 +389,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0NGUNeL6i_v_b3cjHjwt-93" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="428" y="258.5" width="30" height="20" as="geometry" />
+          <mxGeometry x="459" y="258.5" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0NGUNeL6i_v_b3cjHjwt-94" value="image001.zip" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="412" y="272.5" width="65" height="26" as="geometry" />
+          <mxGeometry x="443" y="272.5" width="65" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0NGUNeL6i_v_b3cjHjwt-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="0NGUNeL6i_v_b3cjHjwt-98">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -427,6 +427,37 @@
         </mxCell>
         <mxCell id="0NGUNeL6i_v_b3cjHjwt-108" value="mshta.exe" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="582" y="371.6700000000001" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0NGUNeL6i_v_b3cjHjwt-109" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0NGUNeL6i_v_b3cjHjwt-111">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="621" y="369.6700000000001" as="sourcePoint" />
+            <mxPoint x="721" y="369.6700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0NGUNeL6i_v_b3cjHjwt-110" value="ProcessCreate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0NGUNeL6i_v_b3cjHjwt-109">
+          <mxGeometry x="0.152" y="-2" relative="1" as="geometry">
+            <mxPoint x="-10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0NGUNeL6i_v_b3cjHjwt-111" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="737" y="358.6700000000001" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0NGUNeL6i_v_b3cjHjwt-112" value="AppStore.exe" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="718" y="371.6700000000001" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0NGUNeL6i_v_b3cjHjwt-113" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="741.02" y="364" as="sourcePoint" />
+            <mxPoint x="755.02" y="364" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="728.02" y="330.67" />
+              <mxPoint x="741.02" y="310.67" />
+              <mxPoint x="768.02" y="330.67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0NGUNeL6i_v_b3cjHjwt-114" value="ReflectiveInject" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="706.02" y="296.67" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
